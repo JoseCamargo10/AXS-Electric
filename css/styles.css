@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,800&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+body nav ul li a:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+}
+
+body nav ul a:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease 0s;
+}
+
+.home {
+    background-image: url('../images/Van1.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    text-align: center;
+}
+
+.aboutus {
+    height: 700px;
+}
+
+.services {
+    height: 700px;
+    background-color: #0033CC;
+}
+
+.careers {
+    height: 700px;
+}
+
+.contact {
+    background-image: url('../images/Van1.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
+    color: white;
+}
+
+.contact .container .subtitle {
+    text-decoration: underline;
+}
